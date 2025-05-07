@@ -51,6 +51,7 @@ header{
 nav ul{
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     
     
 }
@@ -73,6 +74,11 @@ nav ul li a:hover{
     display: flex;
     align-items: center;  
 }
+#heroImage p{
+    margin-bottom: 5px;
+    color: var(--blanco);
+    font-weight: 700;
+}
 
 h1{
    color: var(--blanco);
@@ -80,11 +86,7 @@ h1{
    font-weight: 800;
    margin-bottom: 10px;
 }
-p{
-    margin-bottom: 5px;
-    color: var(--blanco);
-    font-weight: 700;
-}
+
 .btnComprar{
     display: inline-block;
     margin-top: 15px;
@@ -109,6 +111,31 @@ h2{
 }
 #caracteristicas{
     background-color: var(--blanco);
+    padding: 30px 120px;
+    color: #000000;
+}
+#caracteristicas div{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#caracteristicas div div{
+    flex-direction: column;
+   
+   
+}
+.contenedorIzquiero{
+    width: 33%;
+}
+.cardCaracteristicas {
+   
+    color: #000000;
+}
+.cardCaracteristicas img{
+    width: 50px;
+}
+.contenedorDerecho{
+    width: 33%;
 }
 /***** Section Galería *****/
 #galeria{
