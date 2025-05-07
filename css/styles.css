@@ -86,26 +86,19 @@ p{
     font-weight: 700;
 }
 .btnComprar{
+    display: inline-block;
     margin-top: 15px;
     background-color: var(--amarillo);
     border-style: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 10px 20px;
     border-radius: 5px;
     transition: ease 1s;
-
-}
-.btnComprar a{
     text-decoration: none;
     color: var(--negro);
 }
-
 .btnComprar:hover{
     background-color: var(--negro);
+    color: var(--azul); 
     
- 
-}
-
-.btnComprar a:hover{
-    color: var(--azul);
-}
+} 
