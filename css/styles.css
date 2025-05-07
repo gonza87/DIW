@@ -1,4 +1,13 @@
+
+/**** Variables css ****/
 /*https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff */
+:root{
+    --negro:#000000;
+    --azul: #14213D;
+    --amarillo: #FCA311;
+    --gris: #E5E5E5;
+    --blanco: #FFFFFF;
+}
 
 /**** Reset css****/
 *{
@@ -11,12 +20,12 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: black;
+    background-color: var(--negro);
 }
 #container{
     margin: 0px auto;
     height: 100vh;
-    background-color: aqua;
+    background-color: var(--blanco);
     width: 80%;
     max-width:1280px;
 }
