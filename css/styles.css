@@ -101,4 +101,16 @@ p{
     background-color: var(--negro);
     color: var(--azul); 
     
-} 
+}
+
+/***** Section Características *****/
+h2{
+    text-align: center;
+}
+#caracteristicas{
+    background-color: var(--blanco);
+}
+/***** Section Galería *****/
+#galeria{
+    background-color: var(--gris);
+}
