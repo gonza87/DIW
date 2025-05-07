@@ -58,5 +58,14 @@ nav ul li a:hover{
     color: var(--azul);
 }
 
-
+#heroImage{
+    padding: 30px 120px;
+    background-image: url("../img/poster1.jpg");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    align-items: center;
+}
 
