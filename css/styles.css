@@ -36,10 +36,12 @@ header{
     color: var(--gris);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 .logo{
    border-radius: 50%;
+   width: 70px;
 }
 
 nav ul{
