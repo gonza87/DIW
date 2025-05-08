@@ -32,6 +32,12 @@ html{
     max-width:1280px;
     
 }
+header,
+#heroImage,
+#caracteristicas,
+footer {
+    padding: 30px 120px;
+}
 
 header{
     background-color: var(--negro);
@@ -39,7 +45,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 120px;
+    /* padding: 30px 120px; */
     font-size: 1.2rem;
     
 }
@@ -65,7 +71,7 @@ nav ul li a:hover{
 }
 
 #heroImage{
-    padding: 30px 120px;
+    /* padding: 30px 120px; */
     background-image: url("../img/poster3.jpg");
     height: 50vh;
     background-repeat: no-repeat;
@@ -117,27 +123,45 @@ h2{
 #caracteristicas div{
     display: flex;
     justify-content: space-between;
+    
    
 }
-#caracteristicas div div{
-    flex-direction: column;
-   
-   
-}
+
 .contenedorIzquiero{
     width: 33%;
+    flex-direction: column;
 }
 .cardCaracteristicas {
-   
+
     color: #000000;
 }
-.cardCaracteristicas img{
+ .cardCaracteristicas img {
     width: 50px;
 }
+
 .contenedorDerecho{
     width: 33%;
+    flex-direction: column;
 }
 /***** Section Galería *****/
 #galeria{
     background-color: var(--gris);
+}
+/***** Footer *****/
+footer {
+    background-color: var(--negro);
+    color: var(--blanco);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div {
+    display: flex;
+}
+
+footer figure img {
+    width: 30px;
+    margin-left: 20px;
 }
