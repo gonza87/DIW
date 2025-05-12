@@ -119,6 +119,7 @@ h2{
     background-color: var(--blanco);
     padding: 30px 120px;
     color: #000000;
+
 }
 #caracteristicas div{
     display: flex;
@@ -128,15 +129,22 @@ h2{
 }
 
 .contenedorIzquiero{
-    width: 33%;
+    width: 32%;
     flex-direction: column;
 }
 .cardCaracteristicas {
-
+    
     color: #000000;
 }
+
  .cardCaracteristicas img {
-    width: 50px;
+    
+    width: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--gris);
+    
+   
 }
 
 .contenedorDerecho{
