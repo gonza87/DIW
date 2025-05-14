@@ -82,10 +82,10 @@ nav ul li a:hover{
 #heroSection{
     background-attachment: fixed;
     background-image: url("../img/poster3.jpg");
-    height: 50vh;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right; 
+    background-position: center 1px; 
   
 }
 
@@ -137,8 +137,10 @@ h1{
     
 }
 h2{
-    color: var(--amarillo);
+    
     font-size: 2rem;
+    color: var(--azul);
+    font-weight:600;
 }
 
 
