@@ -9,6 +9,9 @@
     --blanco: #FFFFFF;
 }
 
+/**** Google Font ****/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /**** Reset css****/
 *{
     margin: 0px;
@@ -17,7 +20,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /**** General ****/
 html{
@@ -29,13 +32,14 @@ html{
     width: 80%;
     max-width:1280px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    
 }
 
-
+/**** Header ****/
+header .container{
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
 header{
     background-color: var(--negro);
     color: var(--gris);
@@ -51,37 +55,48 @@ nav ul{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
     
     
 }
 nav ul li a{
     text-decoration: none;
     color: var(--blanco);
-    margin-left: 30px;
+   
 }
 nav ul li a:hover{
     color: var(--azul);
 }
 
-#heroImage{
-    /* padding: 30px 120px; */
+/**** Hero Section ****/
+
+#heroSection .container{
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#heroSection{
+    
     background-image: url("../img/poster3.jpg");
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
-    display: flex;
-    align-items: center;  
+    background-position: right; 
+   
 }
-#heroImage p{
+
+
+#heroSection p{
     margin-bottom: 5px;
     color: var(--blanco);
-    font-weight: 700;
+    
 }
 
 h1{
    color: var(--blanco);
-   font-size: 1.8rem;
+   font-size: 2rem;
    font-weight: 800;
    margin-bottom: 10px;
 }
@@ -105,6 +120,9 @@ h1{
 }
 
 /***** Section Características *****/
+#caracteristicas .container{
+    
+}
 h2{
     text-align: center;
 }
