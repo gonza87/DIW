@@ -43,6 +43,8 @@ header .container{
     align-items: center;
 }
 header{
+    position: fixed;
+    width: 100%;
     background-color: var(--negro);
     color: var(--gris);
     font-size: 1.3rem;
