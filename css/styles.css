@@ -96,7 +96,7 @@ nav ul li a:hover{
 
 h1{
    color: var(--blanco);
-   font-size: 2rem;
+   font-size: 2.5rem;
    font-weight: 800;
    margin-bottom: 10px;
 }
@@ -121,6 +121,7 @@ h1{
 
 /***** Section Características *****/
 #caracteristicas .container{
+    
     flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -130,30 +131,27 @@ h1{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
     
 }
-
-#caracteristicas{
-    background-color: var(--blanco);
-    color: #000000;
-
+h2{
+    font-size: 2rem;
 }
 
 
-.contenedorIzquiero{
-  
+
+.contenedorIzquiero, .contenedorDerecho{
     display: flex;
     flex-direction: column;
-   
     flex: 1;
-    /* background-color: #FCA311; */
+    
 }
 .contenedorImg{
     flex: 1.2;
     background-image: url(/DIW/img/tabladiseño.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: #0095EB; */
+     background-color: #0095EB; 
 }
 .cardCaracteristicas {
     display: flex;
@@ -164,21 +162,12 @@ h1{
 }
 
  .cardCaracteristicas img {
-    
     width: 70px;
     border-radius: 50%;
     background-color: var(--gris);
-    
-   
 }
 
-.contenedorDerecho{
-    display: flex;
-    flex-direction: column;
-    /* background-color: blue; */
-    flex: 1;
-    
-}
+
 
 /***** Section Galería *****/
 #galeria{
