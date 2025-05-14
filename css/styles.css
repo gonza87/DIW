@@ -101,7 +101,7 @@ h1{
    margin-bottom: 10px;
 }
 
-.btnComprar{
+.btn{
     display: inline-block;
     margin-top: 15px;
     background-color: var(--amarillo);
@@ -113,7 +113,7 @@ h1{
     text-decoration: none;
     color: var(--negro);
 }
-.btnComprar:hover{
+.btn:hover{
     background-color: var(--negro);
     color: var(--azul); 
     
@@ -186,13 +186,13 @@ h2{
     margin-bottom: 50px;
     
 }
-#otrosProductos .container div{
+ .headProductos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-}
+} 
 
 #otrosProductos .container article{
     flex: 1;
@@ -204,10 +204,18 @@ h2{
 #otrosProductos .container article img{
     width: 100%;
 }
-#otrosProductos .container article .test{
-    align-items: flex-start;
-    padding: 10px;
+.pieCard{
+    padding: 15px;
+   
 }
+
+.pieCard .btn{
+    width: 100%;
+    text-align: center;
+ 
+    
+    
+} 
 
 
 /***** Footer *****/
