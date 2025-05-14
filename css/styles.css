@@ -121,37 +121,51 @@ h1{
 
 /***** Section Características *****/
 #caracteristicas .container{
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    column-gap: 25px;
+}
+#caracteristicas .container div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     
 }
-h2{
-    text-align: center;
-}
+
 #caracteristicas{
     background-color: var(--blanco);
-    padding: 30px 120px;
     color: #000000;
 
 }
-#caracteristicas div{
-    display: flex;
-    justify-content: space-between;
-    
-   
-}
+
 
 .contenedorIzquiero{
-    width: 32%;
+  
+    display: flex;
     flex-direction: column;
+   
+    flex: 1;
+    /* background-color: #FCA311; */
+}
+.contenedorImg{
+    flex: 1.2;
+    background-image: url(/DIW/img/tabladiseño.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #0095EB; */
 }
 .cardCaracteristicas {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #000000;
 }
 
  .cardCaracteristicas img {
     
     width: 70px;
-    padding: 10px;
     border-radius: 50%;
     background-color: var(--gris);
     
@@ -159,9 +173,13 @@ h2{
 }
 
 .contenedorDerecho{
-    width: 33%;
+    display: flex;
     flex-direction: column;
+    /* background-color: blue; */
+    flex: 1;
+    
 }
+
 /***** Section Galería *****/
 #galeria{
     background-color: var(--gris);
