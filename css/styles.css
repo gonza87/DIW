@@ -78,13 +78,13 @@ nav ul li a:hover{
 }
 
 #heroSection{
-    
+    background-attachment: fixed;
     background-image: url("../img/poster3.jpg");
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right; 
-   
+  
 }
 
 
@@ -179,6 +179,9 @@ h2{
 }
 
 /***** Section Otros Productos *****/
+#otrosProductos{
+    background-color: var(--gris);
+}
 
 #otrosProductos .container {
     flex-wrap: wrap;
@@ -197,7 +200,7 @@ h2{
 #otrosProductos .container article{
     flex: 1;
     border-style:  solid;
-    border-color: #000000;
+    border-color: var(--gris);
     border-width: 1px;
     border-radius: 5px;
 }
