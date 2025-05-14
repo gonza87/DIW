@@ -177,6 +177,39 @@ h2{
 #galeria{
     background-color: var(--gris);
 }
+
+/***** Section Otros Productos *****/
+
+#otrosProductos .container {
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 50px;
+    
+}
+#otrosProductos .container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#otrosProductos .container article{
+    flex: 1;
+    border-style:  solid;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 5px;
+}
+#otrosProductos .container article img{
+    width: 100%;
+}
+#otrosProductos .container article .test{
+    align-items: flex-start;
+    padding: 10px;
+}
+
+
 /***** Footer *****/
 footer .container{
     justify-content: space-between;
