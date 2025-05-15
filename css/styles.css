@@ -156,7 +156,7 @@ h2{
 }
 .contenedorImg{
     flex: 1.2;
-    background-image: url(/DIW/img/tabladiseño.jpg);
+    background-image: url(../img/tabladiseño.jpg);
     background-repeat: no-repeat;
     background-size: cover;
      background-color: #0095EB; 
@@ -188,7 +188,7 @@ h2{
 /***** Section Otros Productos *****/
 #otrosProductos{
     background-color: var(--gris);
-    background-image: url(/DIW/img/patrongris.png);
+    background-image: url(../img/patrongris.png);
     background-attachment: fixed;
     
 }
