@@ -156,7 +156,7 @@ h2{
 }
 .contenedorImg{
     flex: 1.2;
-    background-image: url(../img/tabladiseño.jpg);
+    background-image: url(../img/caracteristicas.avif);
     background-repeat: no-repeat;
     background-size: cover;
      background-color: #0095EB; 
@@ -210,9 +210,10 @@ h2{
 #otrosProductos .container article{
     flex: 1;
     border-style:  solid;
-    border-color: var(--gris);
+    border-color: var(--amarillo);
     border-width: 1px;
     border-radius: 5px;
+    
 }
 #otrosProductos .container article img{
     width: 100%;
