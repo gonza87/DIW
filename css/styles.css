@@ -194,6 +194,10 @@ h2{
 .columnaFormulario, .columnaTabla {
     flex: 1;
 }
+.columnaTabla {
+  display: flex;
+  align-items: center;
+}
 table{
     width: 100%;
     border-collapse: collapse;
@@ -222,16 +226,23 @@ form{
 }
 label , textarea{
     display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 .labelInline{
-    display: inline;
+    display: inline-block;
     font-weight: normal;
-}
-.flexModeloCantidad{
-    display: flex;
     
 }
-
+.flexModeloCantidad{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+select{
+    width: 260px;
+}
 input, select, textarea {
     padding: 10px;
     border: 1px solid black;
@@ -239,9 +250,22 @@ input, select, textarea {
     
    
 }
-input[type="text"]{
+input[type="text"], input[type="email"]{
     width: 100%; 
 }
+
+textarea{
+    width: 100%;
+    height: 100px;
+}
+form .btn{
+   width: 100%;
+   margin-top: 30px;
+    
+ 
+    
+    
+} 
 
 
 /***** Section Otros Productos *****/
