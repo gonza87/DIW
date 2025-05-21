@@ -128,7 +128,7 @@ h1{
 #caracteristicas .container{
     
     flex-wrap: wrap;
-    padding-top: 50px;
+   
     padding-bottom: 50px;
     column-gap: 25px;
 }
@@ -136,7 +136,7 @@ h1{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     
 }
 h2{
@@ -144,6 +144,7 @@ h2{
     font-size: 2rem;
     color: var(--azul);
     font-weight:600;
+    margin-top: 50px;
 }
 
 
