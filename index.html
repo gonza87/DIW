@@ -118,18 +118,24 @@
               <label for="email">Email *</label>
               <input type="email" id="email" name="email" required />
 
-              <div>
-                <label for="slcModelo">Modelo *</label>
-                <select name="slcModelo" id="slcModelo" required>
-                  <option value="x">Seleccione Modelo</option>
-                  <option value="">uno</option>
-                  <option value="">dos</option>
-                  <option value="">tres</option>
-                  <option value="">cuatro</option>
-                </select>
-                <label for="nbrCantidad">Cantidad</label>
-                <input type="number" id="nbrCantidad" name="nbrCantidad" />
+              <div class="flexModeloCantidad">
+                <div>
+                  <label for="slcModelo">Modelo *</label>
+                  <select name="slcModelo" id="slcModelo" required>
+                    <option value="x">Seleccione Modelo</option>
+                    <option value="">uno</option>
+                    <option value="">dos</option>
+                    <option value="">tres</option>
+                    <option value="">cuatro</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="nbrCantidad">Cantidad</label>
+                  <input type="number" id="nbrCantidad" name="nbrCantidad" />
+                </div>
               </div>
+
               <label for="comentarios">Comentarios</label>
               <textarea name="comentarios" id="comentarios"></textarea>
               <input
@@ -138,7 +144,7 @@
                 id="ckbAcepto"
                 value="Acepto"
               />
-              <label for="ckbAcepto"
+              <label class="labelInline" for="ckbAcepto"
                 >Acepto recibir novedades sobre los últimos lanzamientos</label
               >
               <input type="submit" value="Enviar" />

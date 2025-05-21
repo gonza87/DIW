@@ -216,7 +216,19 @@ table tbody tr td:nth-child(1),td:nth-child(2){
     font-weight: 600;
 }
 
-
+form{
+    width: 80%;
+}
+label , textarea{
+    display: block;
+}
+.labelInline{
+    display: inline;
+}
+.flexModeloCantidad{
+    display: flex;
+    
+}
 /***** Section Otros Productos *****/
 #otrosProductos{
     background-color: var(--gris);
