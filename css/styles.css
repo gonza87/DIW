@@ -185,12 +185,28 @@ h2{
     background-color: var(--gris);
 }
 
+/***** Section Reserva ahora *****/
+#reserva .container{
+    flex-wrap: wrap;
+     gap: 50px;
+    padding-bottom: 50px; 
+}
+.columnaFormulario, .columnaTabla {
+    flex: 1;
+}
+
+table,th,td{
+   border-top: solid black 1px;
+   border-bottom: solid black 1px;
+   border-collapse: collapse;
+}
+
+
 /***** Section Otros Productos *****/
 #otrosProductos{
     background-color: var(--gris);
     background-image: url(../img/patrongris.png);
-    background-attachment: fixed;
-    
+    background-attachment: fixed;  
 }
 
 #otrosProductos .container {
@@ -199,7 +215,7 @@ h2{
     padding-bottom: 50px;
     
 }
- .headProductos{
+ .headContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
