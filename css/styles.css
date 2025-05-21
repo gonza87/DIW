@@ -218,17 +218,32 @@ table tbody tr td:nth-child(1),td:nth-child(2){
 
 form{
     width: 80%;
+    font-weight: 600;
 }
 label , textarea{
     display: block;
 }
 .labelInline{
     display: inline;
+    font-weight: normal;
 }
 .flexModeloCantidad{
     display: flex;
     
 }
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    
+   
+}
+input[type="text"]{
+    width: 100%; 
+}
+
+
 /***** Section Otros Productos *****/
 #otrosProductos{
     background-color: var(--gris);
