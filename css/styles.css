@@ -1,6 +1,6 @@
 
 /**** Variables css ****/
-/*https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff */
+
 :root{
     --negro:#000000;
     --azul: #0095EB;
@@ -22,7 +22,7 @@
 h1, h2, h3, nav{
     font-family: "Montserrat", sans-serif;
 }
-/**font-family: "Montserrat", sans-serif; font-family: "Lato", sans-serif;
+
 
 /**** General ****/
 html{
