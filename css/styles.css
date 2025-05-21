@@ -44,7 +44,7 @@ header .container{
     align-items: center;
 }
 header{
-    position: fixed;
+  
     width: 100%;
     background-color: var(--negro);
     color: var(--gris);
@@ -161,7 +161,8 @@ h2{
     background-image: url(../img/caracteristicas.avif);
     background-repeat: no-repeat;
     background-size: cover;
-     background-color: #0095EB; 
+    background-color: #0095EB; 
+     
 }
 .cardCaracteristicas {
     display: flex;
@@ -172,12 +173,14 @@ h2{
     gap: 10px;
     text-align: center;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
  .cardCaracteristicas img {
     width: 70px;
     border-radius: 50%;
     background-color: var(--gris);
+    
 }
 
 
@@ -272,6 +275,9 @@ textarea{
     width: 100%;
     height: 100px;
 }
+
+
+
 form .btn{
    width: 100%;
    margin-top: 30px;
