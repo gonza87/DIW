@@ -111,7 +111,29 @@
           <p>lorem description seccion</p>
           </div>
           
-          <div class="columnaFormulario"><p>Formulario</p></div>
+          <div class="columnaFormulario">
+            <form action="back.js" method="post" autocomplete="on">
+              <label for="txtNombre">Nombre Completo *</label>
+              <input type="text" id="txtNombre" name="txtNombre" required>
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+              <label for="slcModelo">Modelo *</label>
+              <div>
+                <select name="slcModelo" id="slcModelo" required>
+                <option value="x">Seleccione Modelo</option>
+                <option value="">uno</option>
+                <option value="">dos</option>
+                <option value="">tres</option>
+                <option value="">cuatro</option>
+              </select>
+              <label for="nbrCantidad">Cantidad</label>
+              <input type="number" id="nbrCantidad" name="nbrCantidad">
+              </div>
+              
+              <input type="submit" value="Enviar">
+
+            </form>
+          </div>
           <div class="columnaTabla">
             <table>
               <thead>
