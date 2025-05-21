@@ -194,11 +194,22 @@ h2{
 .columnaFormulario, .columnaTabla {
     flex: 1;
 }
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
 
 table,th,td{
    border-top: solid black 1px;
    border-bottom: solid black 1px;
-   border-collapse: collapse;
+   
+}
+th{
+    text-align: left;
+    background-color: var(--gris);
+}
+th, td{
+    padding: 15px;
 }
 
 
