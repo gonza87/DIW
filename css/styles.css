@@ -184,8 +184,11 @@ h2{
 
 /***** Section Galería *****/
 #galeria{
-    background-color: var(--gris);
+    
+    background-image: url(../img/patrongris.png);
+    background-attachment: fixed;  
 }
+
 #galeria .container{
     width: 100%;
     flex-wrap: wrap;
